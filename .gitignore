@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PyTest cache
+.cache/
+
+# Local configs
+*.env
+*.log
+
+# FastAPI
+*.sqlite
+*.db
