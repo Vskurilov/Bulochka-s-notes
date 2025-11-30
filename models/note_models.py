@@ -7,6 +7,10 @@ class Note(BaseModel):
     title: str
     body: str
     tags: List[str]
+    
+    model_config = {
+        "from_attributes": True
+    }
 
 class NoteCreate(BaseModel):
     title: str
